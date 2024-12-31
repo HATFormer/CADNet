@@ -2,15 +2,15 @@
 Official implementation of CADNet: Change-Aware Siamese Network for Surface Defects Segmentation under Complex Background
 
 ## Installation
-# Install pytorch
+### Install pytorch
 conda create -n cadnet python=3.8
 conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch
-# Install MMSegmentation
+### Install MMSegmentation
 pip install -U openmim
 mim install mmengine
 pip install mmcv-full
 pip install -V -e .
-# Install basic libraries
+### Install basic libraries
 pip install scikit-learn
 pip install scikit-image
 pip install catboost
