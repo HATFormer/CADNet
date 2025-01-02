@@ -3,7 +3,7 @@ Official implementation of CADNet: Change-Aware Siamese Network for Surface Defe
 [arxiv](https://arxiv.org/pdf/2409.00589)
 
    <div align=center>
-   <img src="https://github.com/HATFormer/CADNet/blob/main/image/SeaNet.png">
+   <img src="https://github.com/HATFormer/CADNet/blob/main/img.jpg">
    </div>
 
 ## Installation
