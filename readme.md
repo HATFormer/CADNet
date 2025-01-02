@@ -32,12 +32,12 @@ python tools/test.py work_dirs/CADNet/mixed/CADNet.py work_dirs/CADNet/mixed/ite
 python tools/test.py work_dirs/CADNet_pcb/CADNet.py work_dirs/CADNet_pcb/iter_46980.pth --eval mIoU mFscore
 ```
 ## Citation
-'''bash
+```bash
 @article{liu2024change,
   title={Change-Aware Siamese Network for Surface Defects Segmentation under Complex Background},
   author={Liu, Biyuan and Chen, Huaixin and Zhan, Huiyao and Luo, Sijie and Huang, Zhou},
   journal={arXiv preprint arXiv:2409.00589},
   year={2024}
 }
-'''
+```
 
