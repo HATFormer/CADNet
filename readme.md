@@ -6,16 +6,20 @@ Official implementation of CADNet: Change-Aware Siamese Network for Surface Defe
 ```bash
 conda create -n cadnet python=3.8
 conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch
+```
 ### Install MMSegmentation
+```bash
 pip install -U openmim
 mim install mmengine
 pip install mmcv-full
 pip install -V -e .
+```
 ### Install basic libraries
+```bash
 pip install scikit-learn
 pip install scikit-image
 pip install catboost
-
+```
 ## Datasets used in the paper
 Please download and put the following datasets in 'data' directory
 [SynLCD](https://pan.baidu.com/s/165cP18FL2qxWz1ljEzUZDg?pwd=aicw)(password: aicw)
