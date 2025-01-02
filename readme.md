@@ -3,6 +3,7 @@ Official implementation of CADNet: Change-Aware Siamese Network for Surface Defe
 
 ## Installation
 ### Install pytorch
+```bash
 conda create -n cadnet python=3.8
 conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch
 ### Install MMSegmentation
