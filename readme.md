@@ -2,6 +2,10 @@
 Official implementation of CADNet: Change-Aware Siamese Network for Surface Defects Segmentation under Complex Background
 [arxiv](https://arxiv.org/pdf/2409.00589)
 
+   <div align=center>
+   <img src="https://github.com/HATFormer/CADNet/blob/main/image/SeaNet.png">
+   </div>
+
 ## Installation
 ### Install pytorch
 ```bash
