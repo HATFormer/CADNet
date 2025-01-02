@@ -32,6 +32,12 @@ Please download the trained models [here](https://pan.baidu.com/s/19cxdhoafK-g-M
 python tools/test.py work_dirs/CADNet/mixed/CADNet.py work_dirs/CADNet/mixed/iter_126000.pth --eval mIoU mFscore
 python tools/test.py work_dirs/CADNet_pcb/CADNet.py work_dirs/CADNet_pcb/iter_46980.pth --eval mIoU mFscore
 ```
+## For training
+```bash
+python tools/train.py config_file.py
+For example:
+python tools/train.py work_dirs/CADNet/mixed/CADNet.py 
+```
 ## Citation
 ```bash
 @article{liu2024change,
